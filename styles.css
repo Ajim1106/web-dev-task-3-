@@ -1,0 +1,63 @@
+    .completed-task {
+        text-decoration: line-through;
+        color: #6c757d;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .task-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        padding: 15px;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+    }
+
+    .task-details {
+        flex: 1;
+        margin-right: 15px;
+    }
+
+    .task-actions {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .task-actions button {
+        margin-left: 5px;
+    }
+
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .task-card {
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .task-details {
+        margin-right: 15px;
+    }
+
+    .task-actions button {
+        margin-left: 5px;
+    }
+
+    .btn {
+        cursor: pointer;
+    }
